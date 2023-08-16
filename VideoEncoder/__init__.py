@@ -27,11 +27,11 @@ if os.path.exists('VideoEncoder/config.env'):
 ### Variables ###
 
 # Basics
-api_id = int(os.environ.get("API_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("BOT_TOKEN")
+api_id = int(os.environ.get("26376042"))
+api_hash = os.environ.get("1f5343b0646645ca1eaf7c4759fc248f")
+bot_token = os.environ.get("6394354920:AAEEU94TPmXGdJw3kzaZrvC0zgA64THGB9M")
 sudo_users = list(set(int(x)
-                  for x in os.environ.get("SUDO_USERS").split()))
+                  for x in os.environ.get("2036803347").split()))
 
 # Optional
 download_dir = os.environ.get("DOWNLOAD_DIR")
